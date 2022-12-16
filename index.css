@@ -10,6 +10,7 @@ body{
     background-color: #0E131F;
     font-family: 'Montserrat', sans-serif;
     color: white;
+    border: 2px solid black;
 }a{
     color: white;
 }
@@ -29,11 +30,13 @@ body{
     margin: 2rem 0rem;
     text-align: center;
     width: 40%;
+    border: 1px solid wheat;
+    font-size: 1.2rem;
+    font-weight: bolder;
 }.card a{
     text-decoration: none;
     transition: 1.2ms;
 }.card a:hover{
-    font-size: 1.1rem;
     color: #EA526F;
 }
 #projectsCard{
@@ -66,7 +69,7 @@ body{
     padding: 1rem;
     font-size: 0.8rem;
     font-family: 'Unbounded', Courier, monospace;
-    text-decoration: underline 5px solid red;
+    text-decoration: underline 4px solid wheat;
 }
 
 @media (max-width: 1000px) {
