@@ -1,0 +1,36 @@
+@import url('/index.css');
+
+.projects-cards{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    padding-top: 6%;
+}
+.project{
+    border: 1px solid rgb(12, 132, 187);
+    width: 30%;
+    text-align: center;
+    margin:  2rem auto;
+    box-shadow: 5px 5px 2px rgb(125, 20, 189);
+}.projectOverlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10rem 0rem;
+}.projectOverlay a{
+    color: white;
+    text-decoration: none;
+}.projectOverlay a:hover{
+    color: rgb(125, 20, 189);
+}
+
+@media (max-width: 1000px){
+    .projects-cards{
+        flex-direction: column;
+        width: 100%;
+    }.project{
+        width: 60%;
+    }
+}

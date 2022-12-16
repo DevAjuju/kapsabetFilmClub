@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+font-family: 'Montserrat', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+font-family: 'Unbounded', cursive;
+KIT CODE
+<script src="https://kit.fontawesome.com/cebd45f90e.js" crossorigin="anonymous"></script>
+Back - <i class="fa-solid fa-house"></i>
+.... - <i class="fa-brands fa-github"></i>
+insta - <i class="fa-brands fa-instagram"></i>
